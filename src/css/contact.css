@@ -1,0 +1,72 @@
+.Contactgrid{
+    margin: 20%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: auto auto;
+    grid-gap: 2em;
+}
+
+.th1{
+    color: #111;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 550;
+    font-size: 36;
+    margin-top: 0em;
+    margin-bottom: 1em;
+  }
+
+.map{
+    justify-items: center;
+    justify-content: center;
+    margin-left:0px;
+    
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column: 1/3;
+    grid-row: 1;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2em;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.column{
+    padding-top: 5%;
+}
+
+.image{
+    background-image: url(../images/contactUs.jpg);
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+    border-radius: 20px;
+    max-width: 600px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.column ul, p {
+    padding-left: 13%;
+}
+
+.column p {
+    padding-left: 5%;
+}
+.column label{
+    padding: 3%;
+    font-size: 20;
+}
+
+.column i {
+    padding-left: 4%;
+    padding-top: 5px;
+    font-size: 30;
+}
+
+

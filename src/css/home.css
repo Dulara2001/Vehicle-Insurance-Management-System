@@ -1,0 +1,246 @@
+/* Image Slider */
+.imageslider{
+    margin: 15%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.slider{
+
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.slides{
+    border-radius: 20px;
+    width: 500%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 1em;
+    
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    border-radius: 20px;
+    width: 20%;
+    transition: 2.5s;
+    
+}
+
+.slide img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+    position: relative;
+    width: 100%;
+    margin-top: -55;
+    display: flex;
+    justify-content: center;
+}
+
+
+.manual-btn{
+    border: 3px solid #5D8478;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background: rgb(148, 209, 190);;
+}
+
+#radio1:checked ~ .first{
+
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+
+    margin-left: -60%;
+}
+
+
+/* MISSION */
+.mb{
+    border-radius: 20px;
+    padding-bottom: 50px;
+    margin:15%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    position: relative;
+    min-height: 40vh;
+    background: rgba(0,0,0,.5);
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+}
+
+
+
+.mission {
+    color: #eee;
+    margin: 15%;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    padding-top: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.mission h1{
+    font-size: 56;
+}
+
+/* REVIEWS */
+
+.reviews{
+    border-radius: 20px;
+    margin: 15%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    position: relative;
+    min-height: 70vh;
+    background: rgba(189, 184, 180,.5);
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+}
+
+.rbox {
+    color: #111;
+    text-align: center;
+    padding-top: 40px;
+    transition: 1s;
+}
+
+
+.rbox h1{
+    font-size: 48;
+}
+
+.row{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: grid;
+    grid-column-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px ,1fr));
+
+}
+.user{
+    display: inline-flex;
+    color:#111;
+    margin-bottom: 2em;
+    border-radius: 20px;
+    text-align: left;
+    background-color:rgb(255,255,255,.8);
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+}
+
+.user div p{
+    max-width: 100%;
+}
+
+i{
+    color: goldenrod;
+}
+
+
+.user img{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user i{
+    padding-bottom: 10px;
+}
+
+.starbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stars input[type=radio]{
+    display: none;
+}
+
+
+.stars label{
+    color: #eee;
+    font-size: 30;
+    float: right;
+    padding: 5px;
+    transition: .5s;
+}
+
+.stars input[type=radio]:not(:checked) ~ label:hover{
+    color: goldenrod;
+}
+
+.stars input[type=radio]:not(:checked) ~ label:hover ~ label{
+    color: goldenrod;
+}
+
+.stars input#r5:checked ~label{
+    color: rgb(255, 184, 5);
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+}
+
+
+.stars input#r4:checked ~label{
+    color: rgb(255, 184, 5);
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+}
+
+.stars input#r3:checked ~label{
+    color: rgb(255, 184, 5);
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+}
+
+.stars input#r2:checked ~label{
+    color: rgb(255, 184, 5);
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+}
+
+.stars input#r1:checked ~label{
+    color: rgb(255, 184, 5);
+    text-shadow: 1px 2px 2px rgba(0,0,0,.5);
+}

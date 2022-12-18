@@ -1,0 +1,178 @@
+.rform{
+    border-radius: 20px;
+    padding-bottom: 50px;
+    align-content: center;
+    margin:15%;
+    margin-top: 0;
+    margin-bottom: 2em;
+    background: rgba(189, 184, 180,.5);
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+    color: #111;
+}
+
+.form{
+	color: #111;
+    width: 90%;
+    padding-top: 20px;
+    align-self: center;
+    left: 5%;
+	margin: auto;
+    margin-bottom: 0;
+}
+
+.form h1{
+    color: #000;
+    font-size: 48;
+    margin-top: 0;
+}
+
+.form h2{
+  color: #000;
+    font-size: 32;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+}
+
+.col-75 {
+  float: right;
+  width: 75%;
+  margin-top: 7px;
+
+}
+
+.sub{
+    margin: 5%;
+    margin-left: 0;
+	  text-align:center;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+input[type=ftext], textarea {
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+input[type=NIC], textarea {
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=salary], textarea {
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=passport], textarea {
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=phone]{
+  width: 30%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=email] {
+  width: 40%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+ input[type=num] {
+  width: 35%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=model] {
+  width: 35%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=year] {
+  width: 20%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=seat] {
+  width: 20%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=date] {
+  width: 20%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+select {
+  width: 29%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+input[type=checkbox],[type=radio] {
+  width: 5%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.cb{
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+input[type=submit]{
+  border: none;
+	font: inherit;
+  border-radius: 20px;
+  color: #fff;
+  width: 40%;
+  height: 30px;
+  background-color:rgba(165, 165, 141,.8);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
+}

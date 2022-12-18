@@ -1,0 +1,131 @@
+
+.th1{
+    color: #111;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 36;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.th2{
+    color: #111;
+    margin: 15%;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px auto;
+    grid-auto-rows: 350px;
+    grid-gap: 1em;
+    margin: 15%;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.timg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+}
+
+
+.info{
+    padding: 5%;
+    border-radius: 20px;
+    color: #eee;
+    background-color: rgba(189, 184, 180,.5);
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+    transition: .5s;
+    color: #111;
+}
+
+.info:hover{
+    background-color: rgba(0,0,0,.8);
+    color: #eee;
+}
+
+.info h1{
+    margin-top: 0;
+    font-size: 32;
+}
+
+.para{
+    font-size: 16px;
+}
+
+.tc{
+    padding: 1em;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,.5);
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+    color: #eee;
+    grid-auto-rows: minmax(auto,400px);
+    grid-column: 1/3;
+    align-content: center;
+    text-align: center;
+}
+
+.tc h3{
+    font-size: 28;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.list1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+    text-align: center;
+}
+
+.list2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(40px,auto);
+    grid-gap: 2em;
+    text-align: center;
+}
+
+.list2 p{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    height: auto;
+    padding: 1em;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.list2 p:hover{
+    background-color: rgba(255,255,255,.8);
+    color: #111;
+}
+
+.buttons3{
+    
+    margin: 15%;
+    margin-top: 0;
+    margin-bottom: 2em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 2em;
+    padding-top: 15px;
+
+}
+
+input[type=button]{
+   border: none;
+    font: inherit;
+  border-radius: 20px;
+  color: #333;
+  width: 100%;
+  height: 30px;
+  background-color:rgba(165, 165, 141,.8);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
+}

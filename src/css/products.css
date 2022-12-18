@@ -1,0 +1,244 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 200px;
+    grid-auto-columns: 200px;
+    grid-gap: 1em;
+    margin: 15%;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+.thumb1{
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(../images/bike2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+
+}
+
+.thumb2{
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(../images/car2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+
+}
+
+.thumb3{
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(../images/suv2.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+
+}
+
+.thumb4{
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(../images/truck.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+
+}
+
+.thumb5{
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    background-image: url(../images/rent.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+    grid-column: 3;
+
+}
+
+
+.thumb6{
+    color: #000;
+    text-align: center;
+    border-radius: 20px;
+    background-image: url(../images/car.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+    cursor: none;
+}
+
+.htxt{
+    align-content: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,.5);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.htxtM{
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    align-content: center;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.htxt:hover{
+    background-color: rgba(0,0,0,.2);
+    color: rgba(255,255,255,.9);
+}
+
+.grid a{
+    text-decoration: none;
+}
+
+.th1{
+    padding-top: 80px;
+    justify-self: center;
+    align-self: center;
+    font-size: 24;
+    margin-top: 0;
+    justify-self: center;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 1em;
+    margin: 15%;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+.form{
+    padding-top: 30px;
+    margin-top: 0;
+    border-radius: 20px;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+    color: #fff;
+}
+
+input[type=text] {
+    font-size: 15px;
+    width:95%;
+    background-color: rgba(255,255,255,1);
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=email] {
+    font-size: 15px;
+    width:95%;
+    background-color: rgba(255,255,255,1);
+    height: 40px;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+
+select{
+    color: #222;
+    background-color: rgba(255,255,255,1);
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    width:auto;
+    border-radius: 4px;
+    border: none;
+}
+
+.form h1{
+    color: #111;
+    padding-left: 5%;
+    margin-top: 0;
+}
+
+.tin{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+    grid-row-gap: 2em;
+    margin: 5%;
+    margin-top: 0;
+}
+
+.cimg{
+    border-radius: 20px;
+    background-image: url(../images/policy.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: .5s;
+    
+    box-shadow: 3px 6px 18px -3px rgba(0,0,0,0.53);
+}
+
+.info h1{
+    margin: 0;
+    color: rgba(255,255,255,1);
+    font-size: 38px;
+
+}
+
+.sub{
+    margin: 5%;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.tarea{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin: 5%;
+    width:90%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 175px;
+
+}
+
+.tarea textarea{
+    background-color: rgba(255,255,255,1);
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type=submit]{
+    border: none;
+	font: inherit;
+    border-radius: 20px;
+    color: #fff;
+    width: 50%;
+    height: 40px;
+    background-color:rgba(165, 165, 141,.8);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.3);
+}
